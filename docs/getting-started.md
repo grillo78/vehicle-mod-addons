@@ -30,6 +30,9 @@ dependencies {
 }
 ```
 
+and add this property to your runs `property "mixin.env.disableRefMap", "true"`
+
+
 In your `mods.toml` you'll need to tell Forge that your mod depends on these mods to be present and loaded before yours.
 
 ```toml
